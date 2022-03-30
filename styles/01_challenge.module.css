@@ -1,0 +1,9 @@
+.box {
+  background: lightblue;
+  padding: 3rem;
+}
+
+.gapUp {
+  background: lightgray;
+  --gap: 3rem;
+}
