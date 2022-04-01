@@ -1,4 +1,4 @@
+/* __next root div */
 #__next {
   min-height: 100vh;
-  background-color: hsl(var(--clr-dark));
 }

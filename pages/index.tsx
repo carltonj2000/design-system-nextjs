@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <h1>Design System With NextJs</h1>
       <p>
         The{" "}
@@ -27,6 +27,17 @@ export default function Home() {
           30m00s Design System HTML colors{" "}
           <Link href="/02_designsystem">
             <a>02</a>
+          </Link>
+          ,{" "}
+          <Link href="/02a_designsystem">
+            <a>02a</a>
+          </Link>{" "}
+          39m00s.
+        </li>
+        <li>
+          42m40s typography{" "}
+          <Link href="/03_typography">
+            <a>03</a>
           </Link>
           .
         </li>

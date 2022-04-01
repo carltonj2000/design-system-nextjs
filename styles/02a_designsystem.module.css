@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.title span {
+  color: hsl(var(--clr-light) / 0.2);
+}
+
+.colors {
+  display: flex;
+  gap: 1rem;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.color span {
+  margin-right: 3rem;
+}
+
+.colorBox {
+  padding: 3rem 1rem 1rem;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+}
